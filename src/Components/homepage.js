@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import TestimonialSection from './TestimonialSection';
 import CTASection from './CTASection';
 
+
 function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-blue-600 text-white py-12">
+      <section className="bg-red-600 text-white py-12">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Welcome to Effort Education</h1>
           <p className="text-lg mb-8">Unlock Your Potential with Our Comprehensive Courses</p>
