@@ -1,7 +1,7 @@
 import React from 'react';
 import YouTubeVideo from './YouTubeVideo';
-import ReviewTile from './ReviewTile';
 import ReviewsSection from './ReviewSection';
+import DirectorMessage from './Directormessage';
 
 function AboutUsPage() {
   return (
@@ -28,14 +28,11 @@ function AboutUsPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="bg-white py-12">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-6">Meet Our Team</h2>
-          {/* Team members grid or carousel can be added here */}
-        </div>
-      </section>
-
+      {/* Director Message */}
+          
+          
+          <DirectorMessage />
+      
       {/* Testimonials Section */}
       <section className="container mx-auto py-12 px-4">
         <h2 className="text-3xl font-bold text-center mb-6">What Our Students Say</h2>
@@ -43,7 +40,6 @@ function AboutUsPage() {
         <ReviewsSection />
       </section>
 
-      
     </div>
   );
 }
