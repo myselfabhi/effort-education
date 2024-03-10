@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import TestimonialSection from './TestimonialSection';
 import CTASection from './CTASection';
 
 
@@ -59,8 +58,7 @@ function HomePage() {
       </div>
     </section>
 
-      {/* Testimonials Section */}
-      <TestimonialSection/>
+     
 
       {/* Call-to-Action Section */}
       <CTASection/>
