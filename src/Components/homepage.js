@@ -11,8 +11,7 @@ function HomePage() {
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Welcome to Effort Education</h1>
           <p className="text-lg mb-8">Unlock Your Potential with Our Comprehensive Courses</p>
-          <Link to="/courses" className="bg-white text-blue-600 py-2 px-6 rounded-full uppercase text-lg font-semibold hover:bg-blue-100 hover:text-blue-700 transition duration-300">Explore Courses</Link>
-        </div>
+         </div>
       </section>
 
       {/* Features Section */}
@@ -38,7 +37,7 @@ function HomePage() {
     </section>
 
       {/* Courses Section */}
-      <section className="py-12 bg-gray-200">
+      <section id="homecourses" className="py-12 bg-gray-200">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center">Featured Courses</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

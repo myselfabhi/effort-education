@@ -43,9 +43,26 @@ const LoginPage = () => {
   return (
     <div className="container mx-auto py-8">
       <h1 className="text-3xl font-bold mb-4">Login</h1>
-      <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" className="block mb-4 p-2 border border-gray-400 rounded" />
-      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" className="block mb-4 p-2 border border-gray-400 rounded" />
-      <button onClick={handleLogin} className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Login</button>
+      <input 
+        type="email" 
+        value={email} 
+        onChange={(e) => setEmail(e.target.value)} 
+        placeholder="Email" 
+        className="block mb-4 p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" 
+      />
+      <input 
+        type="password" 
+        value={password} 
+        onChange={(e) => setPassword(e.target.value)} 
+        placeholder="Password" 
+        className="block mb-4 p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" 
+      />
+      <button 
+        onClick={handleLogin} 
+        className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600 transition duration-300"
+      >
+        Login
+      </button>
       <p className="mt-4">Don't have an account? <Link to="/signup" className="text-blue-500 hover:underline">Sign up</Link></p>
     </div>
   );
