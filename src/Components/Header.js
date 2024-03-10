@@ -11,7 +11,8 @@ function Header() {
         {/* Navigation */}
         <nav className="hidden md:block">
           <ul className="flex space-x-6">
-            <li><Link to="/courses" className="text-white hover:text-blue-200">Study Material</Link></li>
+            {/* Modified: Wrapped the Study Material link with a Link component */}
+            <li><Link to="/login" className="text-white hover:text-blue-200">Study Material</Link></li>
             <li><Link to="/about" className="text-white hover:text-blue-200">About Us</Link></li>
             <li><Link to="/contact" className="text-white hover:text-blue-200">Contact</Link></li>
           </ul>
