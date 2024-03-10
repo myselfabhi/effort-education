@@ -1,5 +1,7 @@
 import React from 'react';
 import YouTubeVideo from './YouTubeVideo';
+import ReviewTile from './ReviewTile';
+import ReviewsSection from './ReviewSection';
 
 function AboutUsPage() {
   return (
@@ -38,6 +40,7 @@ function AboutUsPage() {
       <section className="container mx-auto py-12 px-4">
         <h2 className="text-3xl font-bold text-center mb-6">What Our Students Say</h2>
         {/* Testimonials carousel or grid can be added here */}
+        <ReviewsSection />
       </section>
 
       

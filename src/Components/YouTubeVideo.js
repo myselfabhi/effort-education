@@ -7,7 +7,7 @@ function YouTubeVideo() {
       <iframe
         title="YouTube Video"
         className="absolute top-0 left-0 w-full h-full"
-        src="https://www.youtube.com/embed/kFKzROacq5I?autoplay=1&mute=1&loop=1&playlist=kFKzROacq5I"
+        src="https://www.youtube.com/embed/1fVgXNsMPf0?autoplay=1&mute=1"
         frameBorder="0"
         allowFullScreen
       ></iframe>
